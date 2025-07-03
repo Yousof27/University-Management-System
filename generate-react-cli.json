@@ -6,14 +6,24 @@
   "testLibrary": "None",
   "component": {
     "default": {
-      "customTemplates": {
-        "component": "./TemplateComponent/TemplateComponent.jsx"
-      },
       "path": "src/components",
       "withStyle": true,
       "withTest": false,
       "withStory": false,
-      "withLazy": false
+      "withLazy": false,
+      "customTemplates": {
+        "component": "./TemplateComponent/TemplateComponent.jsx"
+      }
+    },
+    "page": {
+      "path": "src/pages",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "component": "./TemplatePage/TemplatePage.jsx"
+      }
     }
   }
 }
