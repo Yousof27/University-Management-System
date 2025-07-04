@@ -12,7 +12,7 @@
       "withStory": false,
       "withLazy": false,
       "customTemplates": {
-        "component": "./TemplateComponent/TemplateComponent.jsx"
+        "component": "./templates/component/TemplateName.jsx"
       }
     },
     "page": {
@@ -22,7 +22,7 @@
       "withStory": false,
       "withLazy": false,
       "customTemplates": {
-        "component": "./TemplatePage/TemplatePage.jsx"
+        "component": "./templates/page/TemplateName.jsx"
       }
     }
   }
