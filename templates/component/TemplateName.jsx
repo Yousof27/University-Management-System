@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./TemplatePage.module.css";
+import styles from "./TemplateName.module.css";
 
-function TemplatePage() {
+function TemplateName() {
   return (
     <div>
       <h1>hello world from mostafa-branch</h1>
@@ -9,4 +9,4 @@ function TemplatePage() {
   );
 }
 
-export default TemplatePage;
+export default TemplateName;
